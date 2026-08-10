@@ -1,12 +1,13 @@
 .avatar{
-  width:110px;
-  height:110px;
+  width:92px;
+  height:92px;
+  display:grid;
+  place-items:center;
   border-radius:50%;
-  overflow:hidden;
   margin:45px 0 20px;
-  border:2px solid #303344;
-  background:#11131c;
-  box-shadow:0 10px 30px rgba(0,0,0,.35);
+  background:linear-gradient(135deg,#8f88ff,#4a91ff);
+  font-size:30px;
+  font-weight:800;
 }
 
 .avatar img{
